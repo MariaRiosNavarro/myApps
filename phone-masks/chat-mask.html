@@ -5,33 +5,97 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/styles.css" />
-    <script src="js/index.js" defer></script>
+    <script src="js/chat-mask.js" defer></script>
     <title>Document</title>
   </head>
   <body>
     <header>
       <h1>AppMask</h1>
       <img src="#" alt="logo" />
-      <!-- klein menu -->
+      <!-- Little menu -->
       <nav></nav>
     </header>
     <form action="">
-      <!--  -->
-      <label for="chatname">Chat mit:</label>
-      <input type="text" name="chatname" />
-      <label for="chatphoto" class="chatphoto"
-        >Foto der Empfänger hochladen:</label
-      >
+      
+      <!-- who this phone belongs to -->
+      <label for="chatname-phone">Telefon ist von:</label>
+      <input type="text" name="chatname-phone" />
+      
+      <!-- chat Name  -->
+      <label for="chatname-out" data-js="chatname-out">Mit wem der Chat stattfindet:</label>
+      <input type="text" name="chatname-out" data-js="chatname-out-input" />
+      
+      <!-- chat Photo  -->
+      <label for="chatphoto" class="chatphoto">Foto von <span data-js="chatname-out-value"></span> hochladen:</label>
       <input type="file" name="chatphoto" />
-      <label for="">Nachrichten:</label>
-      <p>Es können maximal 6 Meldungen angezeigt werden</p>
-      <input type="text" name="" />
-      <textarea name="" id="" cols="30" rows="10"></textarea>
-      <textarea name="" id="" cols="30" rows="10"></textarea>
-      <textarea name="" id="" cols="30" rows="10"></textarea>
-      <textarea name="" id="" cols="30" rows="10"></textarea>
-      <textarea name="" id="" cols="30" rows="10"></textarea>
-      <textarea name="" id="" cols="30" rows="10"></textarea>
+
+      
+      <!--chat Messages  -->
+
+                     <!--Messages A -->
+
+        <label for="message1">Nachricht A:</label>
+        <input type="text" id="message1" name="message1">
+        <label for="sender1">Sender:</label>
+        <select id="sender1" name="sender1">
+          <option value="A"></option>
+          <option value="B">Otro usuario</option>
+        </select>
+                    <!--Messages B -->
+
+        <label for="message2">Nachricht B:</label>
+        <input type="text" id="message2" name="message2">
+        <label for="sender2">Enviar como:</label>
+        <select id="sender2" name="sender2">
+          <option value="A">Yo</option>
+          <option value="B">Otro usuario</option>
+        </select>
+                    <!--Messages C -->
+
+        <label for="message2">Nachricht B:</label>
+        <input type="text" id="message2" name="message2">
+        <label for="sender2">Enviar como:</label>
+        <select id="sender2" name="sender2">
+          <option value="A">Yo</option>
+          <option value="B">Otro usuario</option>
+        </select>
+                    <!--Messages D -->
+
+        <label for="message2">Nachricht B:</label>
+        <input type="text" id="message2" name="message2">
+        <label for="sender2">Enviar como:</label>
+        <select id="sender2" name="sender2">
+          <option value="A">Yo</option>
+          <option value="B">Otro usuario</option>
+        </select>           
+                    <!--Messages E -->
+
+        <label for="message2">Nachricht B:</label>
+        <input type="text" id="message2" name="message2">
+        <label for="sender2">Enviar como:</label>
+        <select id="sender2" name="sender2">
+          <option value="A">Yo</option>
+          <option value="B">Otro usuario</option>
+        </select>
+                    <!--Messages F -->
+
+        <label for="message2">Nachricht B:</label>
+        <input type="text" id="message2" name="message2">
+        <label for="sender2">Enviar como:</label>
+        <select id="sender2" name="sender2">
+          <option value="A">Yo</option>
+          <option value="B">Otro usuario</option>
+        </select>
+
+                  <!-- last message-->
+  
+        <button type="submit">Enviar mensajes</button>
     </form>
   </body>
+  <footer>
+    <!-- big menu -->
+    <nav></nav>
+  </footer>
+</body>
+</html>
 </html>
