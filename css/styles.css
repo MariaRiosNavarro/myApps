@@ -1,0 +1,19 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+:root {
+    --primary-color: black;
+    --dark-modus-color: white;
+    --bg-color: #f6f6ac;
+    --dark-modus-bgcolor: darkblue;
+    --nav-bg-color: darkorange;
+    --nav-bg-color-secundary: darkgreen;
+}
+
+body {
+    margin: 0;
+}
+
