@@ -1,0 +1,18 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: black;
+  --bg-color: #e3f4f9;
+  --nav-bg-color: #55b0f2;
+  --dark-mode-color: white;
+  --dark-mode-bgcolor: #1e222c;
+  --dark-mode-nav-bg-color: rgb(9, 6, 58);
+}
+
+body {
+  margin: 0;
+}
