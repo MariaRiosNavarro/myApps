@@ -1,0 +1,6 @@
+.chat-form-card {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid red;
+  margin: 2rem;
+}
