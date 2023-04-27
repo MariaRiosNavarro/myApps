@@ -1,2 +1,6 @@
-@import "global.css";
+@import "/css/global.css";
 @import "/css/phone-masks-css/chat-mask.css";
+
+body {
+  background-color: aquamarine;
+}
